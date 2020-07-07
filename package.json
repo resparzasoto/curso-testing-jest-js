@@ -1,0 +1,31 @@
+{
+  "name": "curso-testing-jest",
+  "version": "1.0.0",
+  "description": "Curso de Testing con Jest 2019",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resparzasoto/curso-testing-jest-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "npm",
+    "testing",
+    "jest",
+    "unit-tests"
+  ],
+  "author": "@resparzasoto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/resparzasoto/curso-testing-jest-js/issues"
+  },
+  "homepage": "https://github.com/resparzasoto/curso-testing-jest-js#readme",
+  "devDependencies": {
+    "babel-jest": "^26.1.0",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^26.1.0"
+  }
+}
