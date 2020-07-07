@@ -4,7 +4,7 @@
   "description": "Curso de Testing con Jest 2019",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,9 @@
   },
   "homepage": "https://github.com/resparzasoto/curso-testing-jest-js#readme",
   "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
     "babel-jest": "^26.1.0",
-    "babel-polyfill": "^6.26.0",
     "jest": "^26.1.0"
   }
 }
