@@ -10,19 +10,19 @@ describe('Mathematics calculations', () => {
     test('OneLessOneShouldBeZero', () => {
         expect(subtract(1, 1)).toBe(0);
     });
-    test('OneLessOneNotShouldBeOne', () => {
+    test('OneLessOneShouldNotBeOne', () => {
         expect(subtract(1, 1)).not.toBe(1);
     });
     test('TwoForTwoShouldBeFour', () => {
         expect(multiply(2, 2)).toBe(4);
     });
-    test('TwoForTwoNotShouldBeThree', () => {
+    test('TwoForTwoShouldNotBeThree', () => {
         expect(multiply(2, 2)).not.toBe(3);
     });
     test('FourDivideInTwoShouldBeTwo', () => {
         expect(divide(4, 2)).toBe(2);
     });
-    test('FourDiveInTwoNotShouldBeThree', () => {
+    test('FourDiveInTwoShouldNotBeThree', () => {
         expect(divide(4, 2)).not.toBe(3);
     });
 });

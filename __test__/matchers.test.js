@@ -14,7 +14,7 @@ describe('Common matchers', () => {
     test('UserActualAndUserExpectedShouldBeEquals', () => {
         expect(userExpected).toEqual(userActual);
     });
-    test('UserActualNotExpectedAndUserExpectedNotShouldBeEquals', () => {
+    test('UserActualNotExpectedAndUserExpectedShouldNotBeEquals', () => {
         expect(userExpected).not.toEqual(userActualNotExpected);
     });
 });

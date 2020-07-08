@@ -15,7 +15,7 @@ describe('Compare truthiness', () => {
         test('FalseShouldBeFalsy', () => {
             expect(isFalse()).toBeFalsy();
         });
-        test('FalseNotShouldBeTruthy', () => {
+        test('FalseShouldNotBeTruthy', () => {
             expect(isFalse()).not.toBeTruthy();
         });
     });
