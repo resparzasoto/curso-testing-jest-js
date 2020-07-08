@@ -7,7 +7,10 @@ describe('A one element exist', () => {
     test('ArrayShouldNotABanana', () => {
         expect(arrayFruits()).not.toContain('platano');
     });
-    test('CheckTheSizeOfAnArray', () => {
+    test('ArrayShouldHaveLengthOfSix', () => {
         expect(arrayFruits()).toHaveLength(6);
+    });
+    test('ArrayShouldContainBlue', () => {
+        expect(arrayColor()).toContain('blue');
     });
 });
