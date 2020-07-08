@@ -9,9 +9,9 @@ describe('Check promises', () => {
             });
     });
     test('ResolveShouldBeHi!', () => {
-        return expect(Promise.resolve('Hi!')).resolves.toBe('Hi!')
+        expect(Promise.resolve('Hi!')).resolves.toBe('Hi!')
     });
     test('RejectShouldBeHi!', () => {
-        return expect(Promise.reject(new Error('Error'))).rejects.toThrow('Error');
+        expect(Promise.reject(new Error('Error'))).rejects.toThrow('Error');
     });
 });
